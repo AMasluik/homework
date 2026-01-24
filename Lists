@@ -1,0 +1,50 @@
+#motorcycles = []
+#motorcycles.append("suzuki")
+#motorcycles.append("honda")
+#motorcycles.append("ducati")
+#motorcycles.append("yamaha")
+#print(motorcycles)
+
+#motorcycles = ["honda", "yamaha", "ducati"]
+#motorcycles.insert(0, "suzuki")
+#print(motorcycles)
+
+#del motorcycles[0]
+#print(motorcycles)
+#del motorcycles[1]
+#print(motorcycles)
+#motorcycles = ["honda", "ducati"]
+#popped_motorcycle = motorcycles.pop()
+#print(motorcycles)
+#print(popped_motorcycle)
+#last_owned_motorcycle = motorcycles.pop()
+#print(f"Last owned motorcycle is {last_owned_motorcycle.title()}")
+#motorcycles.append("ducati")
+#first_owned_motorcycle = motorcycles.pop(0)
+#print(f"First owned motorcycle is {first_owned_motorcycle.title()}")
+#motorcycles = ["honda", "yamaha", "ducati","suzuki"]
+#print(motorcycles)
+#too_expensive = "ducati"
+#motorcycles.remove(too_expensive)
+#print(motorcycles)
+#print (f" \nA {too_expensive.title()} is to expensive for me.")
+
+# cars = ["bmw","audi","mazerati,lamborgini,toyta","subaru"]
+# cars.sort()
+# print(cars)
+# cars.sort(reverse=True)
+# print(cars)
+# cars = ["bmw","audi","mazerati,lamborgini,toyta","subaru"]
+# print("Here is the original list:")
+# print(cars)
+# print("\nHere is the sorted list:")
+# print(sorted(cars))
+# print("\nHere is the original list again:")
+# cars = ["bmw","audi","mazerati,lamborgini,toyta","subaru"]
+# print(cars)
+# 
+# cars.reverse()
+# print(cars)
+# 
+# cars = ["bmw","audi","mazerati,lamborgini,toyta","subaru"]
+# print(len(cars))
