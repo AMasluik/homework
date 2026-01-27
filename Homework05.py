@@ -1,8 +1,10 @@
-lst = [12, 3, 4, 10]
-if len(lst) > 1:
-    lst = lst[-1:] + lst[:-1]
-print(lst)
-#не знаю какой из вариантов мне больше нравиться
-lst = []
-lst = lst[-1:] + lst[:-1]
-print(lst)
+list = ["5" , "6", "8", "9", "10", "10", "23",]
+# if len(list) > 1:
+#     list = list[-1:] + list[:-1]
+print(list)
+# # не знаю какой из вариантов мне больше нравиться
+# list = [0]
+# list = list[-1:] + list[:-1]
+# print(list)
+list =list[:]
+print(list)

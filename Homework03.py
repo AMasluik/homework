@@ -9,7 +9,9 @@ elif b == "-":
     print(a - c)
 elif b == "*":
     print(a * c)
-elif b == "/" and c != 0:
+elif b == "/" and c == 0:
+    print("division by zero")
+elif  b == "/":
     print(a / c)
 else:
     print("Please enter a valid input")
