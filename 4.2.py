@@ -1,4 +1,7 @@
-numbers = [6]
+numbers = []
+
+if not numbers:
+    numbers = [0]
 
 sum_even_index = 0
 for i in range(0, len(numbers), 2):
