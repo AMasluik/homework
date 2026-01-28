@@ -10,4 +10,4 @@ for i, num in enumerate(numbers):
 for i in range(index, len(numbers)):
     numbers[i] = 0
 
-print(numbers) #хочу через f строку можна?
+print(numbers) #хочу через f строку можна)?
