@@ -23,12 +23,6 @@ else:
     elif variable in keyword.kwlist:
         print(False)
 
-
-    elif variable.count('_') > 1:
-        print(False)
-
     else:
         print(True)
     print("Thanks for valid input")
-    #якщо можна підкажіть будь ласка літературу якої ви самі користувалися коли починали бо якщо чесно вже прям
-    #-важко робити код дуже багато інформації якись канал чи форум
