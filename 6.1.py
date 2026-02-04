@@ -1,13 +1,14 @@
 import string
 
-letters = input("Enter two letters: ")
+letters_input = input("Enter two letters: ")
 
-a, b = letters.split('-')
+first_letter, second_letter = letters_input.split('-')
 
-first_index = string.ascii_letters.index(a)
-second_index = string.ascii_letters.index(b)
+first_position = string.ascii_letters.index(first_letter)
+second_position = string.ascii_letters.index(second_letter)
 
-print(string.ascii_letters[first_index:second_index + 1])
+letters_range = string.ascii_letters[first_position:second_position + 1]
+print(letters_range)
 
 
 
