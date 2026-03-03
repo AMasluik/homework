@@ -1,11 +1,11 @@
 def generate_cube_numbers(end):
-    number = 2
+    start_number = 2
     while True:
-        cube = number ** 3
+        cube = start_number ** 3
         if cube > end:
             return
         yield cube
-        number += 1
+        start_number += 1
 
 from inspect import isgenerator
 
