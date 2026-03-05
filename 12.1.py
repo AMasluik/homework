@@ -1,6 +1,9 @@
+import codecs
+
+
 def delete_html_tags(html_file, result_file='cleaned.txt'):
-    with open(html_file, 'r', encoding='utf-8') as f:
-        html = f.read()
+    with codecs.open(html_file, 'r', 'utf-8') as file:
+        html = file.read()
 
     text = ''
     inside_tag = False
@@ -16,8 +19,8 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
     clean_lines = [line.strip() for line in text.split('\n') if line.strip()]
     result = '\n'.join(clean_lines)
 
-    with open(result_file, 'w', encoding='utf-8') as f:
-        f.write(result)
+    with codecs.open(result_file, 'w', 'utf-8') as file:
+        file.write(result)
 
 
 if __name__ == '__main__':
