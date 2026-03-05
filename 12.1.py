@@ -1,7 +1,6 @@
 def delete_html_tags(html_file, result_file='cleaned.txt'):
-    with open(html_file, 'r', encoding='utf-8') as f:
-        html = f.read()
-
+    with codecs.open(html_file, 'r', 'utf-8') as file: 
+           html = file.read()
     text = ''
     inside_tag = False
 
