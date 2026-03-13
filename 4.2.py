@@ -1,4 +1,4 @@
-numbers = []
+numbers = [1, 3, 5]
 
 if not numbers:
     numbers = [0]
